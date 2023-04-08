@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+   background:linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
+}
+body h2{
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+.main-Container{
+    width: 50vw;
+    margin: 3rem auto;
+}
+.board-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.board-row .board-cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    background-color: rgb(29, 29, 29);
+    cursor: pointer;
+    width: 6rem;
+    height: 6rem;
+}
+.board-cell h3{
+    font-size: 3.5rem;
+}
+.btn.retry{
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    background-color: red;
+    cursor: pointer;
+    text-transform: uppercase;
+}
