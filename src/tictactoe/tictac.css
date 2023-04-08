@@ -6,6 +6,8 @@
 body{
     font-family: sans-serif;
    background:linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
+   text-align: center;
+   color: azure;
 }
 body h2{
     padding-top: 2rem;
@@ -36,6 +38,7 @@ body h2{
     font-size: 3.5rem;
 }
 .btn.retry{
+    margin: 1rem 0;
     padding: 0.6rem 2rem;
     font-size: 1rem;
     background-color: red;
